@@ -4,4 +4,5 @@ Internal client request tracker MVP which captures incoming client requests, ass
 
 # Link
 
-https://frontend-d1z49e291-mondrita.vercel.app/
+
+https://frontend-seven-alpha-jiinx5mjsx.vercel.app/
