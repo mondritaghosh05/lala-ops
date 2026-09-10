@@ -1,0 +1,108 @@
+.dashboard {
+  padding: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.dashboard-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  letter-spacing: -0.02em;
+}
+
+.bucket-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.bucket {
+  background-color: #141414;
+  border-radius: 16px;
+  padding: 1.25rem;
+  flex: 1 1 280px;
+  min-width: 280px;
+  border: 1px solid #232323;
+}
+
+.bucket-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid;
+}
+
+.bucket-header h2 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.bucket-count {
+  font-size: 0.85rem;
+  color: #999;
+  background-color: #1e1e1e;
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+}
+
+.accent-blue { border-color: #3b82f6; }
+.accent-purple { border-color: #a78bfa; }
+.accent-yellow { border-color: #fbbf24; }
+.accent-red { border-color: #f87171; }
+
+.bucket-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.request-card {
+  background-color: #1c1c1c;
+  border-radius: 12px;
+  padding: 0.9rem 1rem;
+  border: 1px solid #2a2a2a;
+}
+
+.request-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.request-client {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.status-badge {
+  font-size: 0.7rem;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  white-space: nowrap;
+  background-color: #2a2a2a;
+  color: #ccc;
+}
+
+.request-description {
+  font-size: 0.85rem;
+  color: #bbb;
+  margin-bottom: 0.6rem;
+  line-height: 1.4;
+}
+
+.request-card-bottom {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  color: #777;
+}
+
+.empty-state {
+  font-size: 0.8rem;
+  color: #555;
+  padding: 0.5rem 0;
+}

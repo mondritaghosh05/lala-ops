@@ -1,0 +1,22 @@
+.app-nav {
+  display: flex;
+  gap: 0.5rem;
+  padding: 1.25rem 2rem 0;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.app-nav button {
+  background-color: transparent;
+  color: #999;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.app-nav button.nav-active {
+  background-color: #1c1c1c;
+  color: #f2f2f2;
+}
